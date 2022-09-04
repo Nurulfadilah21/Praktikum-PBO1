@@ -21,7 +21,9 @@ public class PraktikumPBO1 {
       
     String name = JOptionPane.showInputDialog ("Input Nama Anda");
     String alamat = JOptionPane.showInputDialog ("Input Alamat Anda");
-    String address  =  JOptionPane.showInputDialog ("Input Tahun Angkatan Anda");
+    int address  =  Integer.parseInt (JOptionPane.showInputDialog ("Input Tahun Angkatan Anda"));
+    
+
     
     }
        
