@@ -20,9 +20,11 @@ public class PraktikumPBO1 {
     public static void main(String[] args) {
       
     String name = JOptionPane.showInputDialog ("Input Nama Anda");
-    String alamat = JOptionPane.showInputDialog ("Input Alamat Anda");
-    int address  =  Integer.parseInt (JOptionPane.showInputDialog ("Input Tahun Angkatan Anda"));
-    
+    String address = JOptionPane.showInputDialog ("Input Alamat Anda");
+    int year =  Integer.parseInt (JOptionPane.showInputDialog ("Input Tahun Angkatan Anda"));
+    JOptionPane.showMessageDialog (null, "Hallo Nama saya " + name);
+    JOptionPane.showMessageDialog (null, "Alamat " + address );
+    JOptionPane.showMessageDialog (null, "Angkatan " + year);
 
     
     }
